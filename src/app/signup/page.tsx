@@ -2,20 +2,20 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Icons } from '@/components/icons';
-import { LoginForm } from '@/components/auth/login-form';
+import { SignupForm } from '@/components/auth/signup-form';
 import { signupAction } from '@/app/actions';
 
-export default function LoginPage() {
+export default function SignupPage() {
   return (
     <div className="flex min-h-screen w-full items-center justify-center bg-background p-4">
       <Card className="mx-auto w-full max-w-sm">
         <CardHeader className="text-center">
           <Icons.logo className="mx-auto h-12 w-12 text-primary" />
-          <CardTitle className="mt-4 text-2xl font-headline">Welcome to HomeGuard</CardTitle>
-          <CardDescription>Sign in to monitor your drone</CardDescription>
+          <CardTitle className="mt-4 text-2xl font-headline">Create an Account</CardTitle>
+          <CardDescription>Enter your details to get started</CardDescription>
         </CardHeader>
         <CardContent>
-          <LoginForm />
+          <SignupForm />
           <div className="relative my-6">
             <div className="absolute inset-0 flex items-center">
               <span className="w-full border-t" />
@@ -31,9 +31,9 @@ export default function LoginPage() {
             </Button>
           </form>
           <div className="mt-4 text-center text-sm">
-            Don&apos;t have an account?{' '}
-            <Link href="/signup" className="underline">
-              Sign up
+            Already have an account?{' '}
+            <Link href="/" className="underline">
+              Sign in
             </Link>
           </div>
         </CardContent>

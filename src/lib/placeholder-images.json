@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "live-feed",
+      "description": "A placeholder for the live drone camera feed.",
+      "imageUrl": "https://images.unsplash.com/photo-1541599468348-e96984315921?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkcm9uZSUyMHZpZXd8ZW58MHx8fHwxNzY1MjE5NDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "drone view"
+    },
+    {
+      "id": "media-1",
+      "description": "A captured image of a backyard.",
+      "imageUrl": "https://images.unsplash.com/photo-1645683977398-0df870a29c80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxiYWNreWFyZCUyMGdhcmRlbnxlbnwwfHx8fDE3NjUyMTk0ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "backyard garden"
+    },
+    {
+      "id": "media-2",
+      "description": "A captured image of a front porch.",
+      "imageUrl": "https://images.unsplash.com/photo-1714836982299-7a3b6930e2f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZnJvbnQlMjBwb3JjaHxlbnwwfHx8fDE3NjUyMTk0ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "front porch"
+    },
+    {
+      "id": "media-3",
+      "description": "A captured image of a rooftop.",
+      "imageUrl": "https://images.unsplash.com/photo-1704908325704-250c0a685c11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyb29mdG9wJTIwdmlld3xlbnwwfHx8fDE3NjUxODYzMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rooftop view"
+    },
+    {
+      "id": "media-4",
+      "description": "A captured image of a side yard.",
+      "imageUrl": "https://images.unsplash.com/photo-1631163128549-4dc5399d0ab3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzaWRlJTIweWFyZHxlbnwwfHx8fDE3NjUyMTk0ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "side yard"
+    },
+    {
+      "id": "media-5",
+      "description": "A short video clip of a driveway.",
+      "imageUrl": "https://images.unsplash.com/photo-1609305538595-86406c89f00a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkcml2ZXdheSUyMG5pZ2h0fGVufDB8fHx8MTc2NTE3NDYyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "driveway night"
+    },
+    {
+      "id": "media-6",
+      "description": "A short video clip of a pool area.",
+      "imageUrl": "https://images.unsplash.com/photo-1678889284805-5c86fb1dba5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwb29sJTIwbmlnaHR8ZW58MHx8fHwxNzY1MjE5NDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pool night"
+    },
+    {
+      "id": "user-avatar",
+      "description": "User avatar placeholder",
+      "imageUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZXJzb24lMjBmYWNlfGVufDB8fHx8MTc2NTE4MzEwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person face"
+    }
+  ]
 }
